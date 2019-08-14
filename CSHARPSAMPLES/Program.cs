@@ -13,6 +13,7 @@ namespace PracticeProblems
             string[] arr = { "veena", "malayam", "rose", "ram", "madam", "kayak", "lotus", "pavan", "pavani", "pinky" };
             foreach (var words in arr)
             {
+                //initial
                 string s, revs = "";
                 Console.WriteLine("enter a string");
                 s = Console.ReadLine();
