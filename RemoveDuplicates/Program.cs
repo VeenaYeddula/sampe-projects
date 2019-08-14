@@ -11,6 +11,7 @@ namespace RemoveDuplicates
         static void Main(string[] args)
         {
             string Sentence ="Hii We are learning C# code";
+
             Console.WriteLine("Initial String: " + Sentence);
             var unique = new HashSet<char>(Sentence);
             Console.Write("New String after removing duplicates: ");
