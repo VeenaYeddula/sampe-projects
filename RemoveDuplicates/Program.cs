@@ -10,6 +10,8 @@ namespace RemoveDuplicates
     {
         static void Main(string[] args)
         {
+
+            //test
             string Sentence ="Hii We are learning C#l";
             Console.WriteLine("Initial String: " + Sentence);
             var unique = new HashSet<char>(Sentence);
